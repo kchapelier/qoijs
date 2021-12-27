@@ -1,8 +1,8 @@
 # qoijs
 
-"[Quite-OK Image format](https://qoiformat.org/)" encoder/decoder in vanilla javascript.
-
 [![NPM version](https://badge.fury.io/js/qoijs.svg)](http://badge.fury.io/js/qoijs)
+
+"[Quite-OK Image format](https://qoiformat.org/)" encoder/decoder in vanilla javascript.
 
 ## Installing
 
