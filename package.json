@@ -1,0 +1,41 @@
+{
+  "name": "qoi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/qoi.js",
+  "scripts": {
+    "build": "browserify src/qoi.js --s QOI > build/qoijs.js",
+    "build-min": "browserify src/qoi.js --s QOI | terser --ecma 5 > build/qoijs.min.js"
+  },
+  "files": [
+    "src/qoi.js",
+    "src/encode.js",
+    "src/decode.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kchapelier/qoijs.git"
+  },
+  "keywords": [
+    "qoi",
+    "quite-ok image",
+    "rgb",
+    "rgba",
+    "image",
+    "picture",
+    "encode",
+    "decode"
+  ],
+  "author": "Kevin Chapelier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kchapelier/qoijs/issues"
+  },
+  "homepage": "https://github.com/kchapelier/qoijs",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "pngjs": "^6.0.0",
+    "terser": "^4.6.13"
+  }
+}
